@@ -1,0 +1,28 @@
+# === 核心安全 (绝对不能提交) ===
+.env
+.env.local
+.env.*
+*.pem
+*.key
+
+# === Python 运行环境 ===
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+build/
+dist/
+
+# === 编辑器与系统文件 ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# === 日志与临时文件 ===
+*.log
+logs/
+tmp/
+.cache/
